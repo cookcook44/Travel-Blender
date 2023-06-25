@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  </head>
-  <body>
-  <div class="mainups">
-  <span class="home"><a href="#"><img src=".메뉴.PNG" width="61px"height="60px"></a></span>
+<div class="mainups">
+  <span class="home"><a href="$url('#')"><img src="/메뉴.PNG" width="61px"height="60px" alt="메뉴"></a></span>
   홈
-  <span class="rig"><img src="/블렌더확대.png" width="60px" height="60px"></span>
+  <span class="rig"><img src="/static/블렌더확대.png" width="60px" height="60px" alt="블렌더"></span>
 </div>
 <slot />
-</body>
-</html>
-
 <style>
   .mainups{
     background-color: white;
