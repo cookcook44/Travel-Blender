@@ -1,7 +1,6 @@
 <div class="mainups">
-  <span class="home"><a href="$url('#')"><img src="/메뉴.PNG" width="61px"height="60px" alt="메뉴"></a></span>
-  홈
-  <span class="rig"><img src="/static/블렌더확대.png" width="60px" height="60px" alt="블렌더"></span>
+  <span class="home"><a href="#/"><img src="../../블렌더확대.png" width="61px"height="60px" alt="블렌더"></a></span>
+  <span class="rig"><img src="../../메뉴.PNG" width="60px" height="60px" alt="메뉴"></span>
 </div>
 <slot />
 <style>
@@ -34,3 +33,4 @@
     transform-origin: right;
   }
 </style>
+
