@@ -1,7 +1,5 @@
 <script>
   let famousslocate = '시흥'
-	export const biglocate = '경기도'
-	export const smalllocate = '시흥시'
 </script>
 <br>
 <div class="scrollbar" style="overflow:auto; width:1200px; height:340px;">
